@@ -10,7 +10,7 @@ Hosted site Url http://13.232.29.129.xip.io/
 How to connect as grader:
 save private key provided in your local machine and run the following command
 
-ssh -i path/to/privatekey -p 2200 grader@13.127.109.109
+ssh -i path/to/privatekey -p 2200 grader@13.232.29.129
   
 Configuring Linux Server
 Updating all packages
@@ -31,6 +31,35 @@ On your local machine in terminal/command prompt
 
 ssh-keygen
 This will generate public and private ssh keys which is saved to .ssh folder
+id_rsa:
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAtVvCMEAmUwMWLZzJ0PLk0jMtrxPxNG3Ow4bKDgjXiUqIIx6g
+76UJPdltDOIvumCNcLdvMiaFGlhU2V6CJOwybsqu6NfrtjcHs5FvvldOPzmqKgtZ
+Nk5ld7Vq0VqfWR6q/vwjYHLKLAH9hufQbRNhbluB+0KI6qxDfcaeGehmzVh0hfB2
+Wm8fAkZV/sIq3QkhGqvi1Lm2zAuoeBWiziIT9o2yrQQA8S7je0kaXpprnCYBBWxl
+9GMVcDynbZ5I/bcTo1EitNF/LfkiRhqN/dDVWiFV35zwcN0LjJpLZrVi8R8uVcyK
+eIdXQ+r65gUKnLoK1pHFa7JpTUfUgz0lzXfXnwIDAQABAoIBADH0aHTp9qR/ASjn
+Ox/3B9huiHLlR1dtt7pb8mQTQ2tpwD4MPcBE8Vq7/THDS+pGli8qF9L0kU1Eb3rA
+cZDCDtI9uhghAahbWB+6O9FuMvtvYtPZ9GTlC0YCDr5D/AiMTgWWZhg3BkFA+xih
+2eNxpzDCu/b9yMD7WkvW3c29GjQNZoC5TyYNGyfGk4qv4m9PiVNxc2Nr3cnRyGZc
+GaDcKnqL2zJH0EirPgy05TlnfdAn2TFFCaZ/13PwNZ8M2NzP9wEJA0O+DCxuvje2
+iHOFfBCN8dVPzRTi7y8X0T60Hhg9Qo9qvTMMtaeWF40ViL3EieN7vVT8NjU7FWzr
+376WAwECgYEA5MKHeB3mXQAOONKTZhkk/0uGN6ZYYQtF2nDEMD/9BJZ/1TfZHAHS
+CbjflADB3H1FlRUC1kmT+J7AtvYhctxglHo9Fca2jLjaJUx9HitQpYlKvSLGlU45
+W079dbgJCpBwnM0C/zy3quA4IXAmop9CPY4Nbf0Q3H8yWGk71J567z8CgYEAyvRA
+xuHFRC4ZjIGBWCXw1FZXF72QkduNjw/R34KpLpecj3y53JbvY7cjjjgADP+Y/Fhb
+kMBmbV72C9GWtExv6YF0piI3iaa2zbAzwXonBVtGibdP07kS7NnY9VsZE2UdmKwN
+Q8qeJHjcU+J7VqRkPJPTHvsA6o0PCYRYm4PhX6ECgYA3+lY2EXL+jPXt97F0CXEh
+O7TzRzRXQu/r/S409GOQzNcpMMpi7Rsdn+yuBeVqdAkj6wlPsJ+R9h8IZoBW4BCO
+JL9v5blkBBP1jpsLV+QbLdZpI+pePM8SRekF9mvX9vJnnE9Ab/YtzUJPBGef4cLO
+10T4BjYrDsEeG1o1tDY29wKBgDTomh5+6wtMLVLozAxrz627WHcS7yZnIy9Bg4gO
+Kwa/dYweiuGL45qOOtGvnavF0l8utag10D4A/Im2OOCF8MLiAcPxtaLH+G4E2mk8
+7AFEe04ZoNDkNZ/TZvEHr7DTsnSDne2nW7TMYTvpFhhPQOZd7zLrYqDC50Gm4+ae
+6dkhAoGBAKGm0L9rsXJvcQh/L3b7e5xPEeOOroXVUbDioBZdnulusHPPU7MLHLDs
+wc7w2ISim3pqJwO/GsBz/F0aVuTtea9Rw3Rb/r+gu+0FOcyIj+x6PVXfZstUxxBz
+QqzWFPUXLVnWPl//90yroyDdxrUKIXHE1VZakbqTKYf4IHMnd3as
+-----END RSA PRIVATE KEY-----
+
 
 Then in your virtual machine change to newly created user
 
@@ -109,7 +138,7 @@ move to the FlaskApp cd FlaskApp
 
 In that direcory clone your github repository
 
-sudo git clone https://github.com/username/catalog.git
+sudo git clone https://github.com/Umapavani/catalog.git
 
 Rename your repository to FlaskApp
 
